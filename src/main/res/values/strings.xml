@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BorderedTextView</string>
+    <string name="borders">Borders</string>
+</resources>

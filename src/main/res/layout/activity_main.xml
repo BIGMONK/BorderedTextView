@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jjkbashlord.borderedtextview.MainActivity">
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorDefault"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView0"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorGreen"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/borderedTextView" />
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/borderedTextView0" />
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView3"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@color/colorBlack"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="100sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPurple"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="75sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintTop_toBottomOf="@id/borderedTextView3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <com.jjkbashlord.borderedtextview.BorderedTextView
+        android:id="@+id/borderedTextView2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorWhite"
+        android:textAlignment="center"
+        android:text="@string/borders"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
